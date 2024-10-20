@@ -32,6 +32,11 @@ lexmsgs.o						\
 #-------------------------------------------------------
 #git management
 
+#pushing commit to github
+github	:	
+		git push github
+
+#committing modification
 commit	:	clean
 		git add .
 		git commit -a
