@@ -97,8 +97,8 @@ n_rules          : Integer;
 n_types          : Integer;
 n_prec           : Integer;
 n_states         : Integer;
-n_items          : Integer;
-n_trans          : Integer;
+n_items          : 0..max_items;
+n_trans          : 0..max_trans;
 n_redns          : Integer;
 
 type
